@@ -1,0 +1,21 @@
+{
+    "product 1" :{
+        "id": 1,
+        "name": "coca cola",
+        "description": "La mejor gaseosa cola del mercado",
+        "price": 110,
+        "thumbnail": "foto",
+        "code": "cjdgjdk",
+        "stock": 10
+    },
+    "product 2" :{
+        "id": 2,
+        "name": "pepsi",
+        "description":"Igual que la coca pero peor",
+        "price": 90,
+        "thumbnail": "foto",
+        "code": "cjdsdfk",
+        "stock": 10
+
+}
+}
