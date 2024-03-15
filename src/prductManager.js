@@ -1,8 +1,19 @@
 import fs from 'fs';
 class ProductManager {
-    constructor(products) {
-        this.products = products;
-    };
+    contructor(path){
+
+        this.products = []
+        this.path = path
+        loadProducts()
+    }
+
+    async readFile() {
+
+        const productsFile= readFileSync(`${this.path}`, 'utf8');
+    
+        this.products = JSON.parse(productsFile);
+    
+    } 
 
     getProducts() {
         console.log(fs.promises.readFile(this.products, "utf-8"));
